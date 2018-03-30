@@ -1,2 +1,2 @@
 # Unity Intranet
-SharePoint 2013 enterprise level intranet
+SharePoint 2013 enterprise intranet with starter webparts and components
