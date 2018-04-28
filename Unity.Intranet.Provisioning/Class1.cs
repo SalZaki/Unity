@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Unity.Intranet.Provisioning
 {
-    public class Class1
+    /// <summary>
+    /// 
+    /// </summary>
+    public class SiteProvisioning : baseProvisioning, ISiteProvisioning
     {
+
     }
 }

@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A95B7A10-C367-4CE9-8867-695D1B403F14}</ProjectGuid>
+    <ProjectGuid>{BB5891FB-8A50-4482-BE9C-52A1458D2975}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Unity.Intranet.Core</RootNamespace>
-    <AssemblyName>Unity.Intranet.Core</AssemblyName>
+    <RootNamespace>Unity.Intranet.WebParts</RootNamespace>
+    <AssemblyName>Unity.Intranet.WebParts</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetOfficeVersion>15.0</TargetOfficeVersion>
     <FileAlignment>512</FileAlignment>
@@ -56,17 +56,14 @@
   <ItemGroup>
     <None Include="key.snk" />
     <None Include="Package\Package.package">
-      <PackageId>{d067dc32-166e-40c2-904f-d22198fde4c6}</PackageId>
+      <PackageId>{04e537b5-9acc-4e02-bd15-ce1d67faa2b2}</PackageId>
     </None>
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ContentTypes\" />
     <Folder Include="Features\" />
-    <Folder Include="Lists\" />
-    <Folder Include="SiteColumns\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

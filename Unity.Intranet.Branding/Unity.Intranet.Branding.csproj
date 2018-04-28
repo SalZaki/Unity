@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A95B7A10-C367-4CE9-8867-695D1B403F14}</ProjectGuid>
+    <ProjectGuid>{8393A04C-55C4-4B58-B9DF-702C3A0E71C2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Unity.Intranet.Core</RootNamespace>
-    <AssemblyName>Unity.Intranet.Core</AssemblyName>
+    <RootNamespace>Unity.Intranet.Branding</RootNamespace>
+    <AssemblyName>Unity.Intranet.Branding</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetOfficeVersion>15.0</TargetOfficeVersion>
     <FileAlignment>512</FileAlignment>
@@ -54,19 +54,47 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="DisplayTemplates\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{dedd01e0-4d61-4ac1-bce0-f02c1b7e2d97}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Branding\Branding.feature">
+      <FeatureId>{75a449f3-957c-4a13-b3bc-26d822fdef5c}</FeatureId>
+    </None>
     <None Include="key.snk" />
+    <None Include="MasterPages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c8aeaa6f-723c-446b-8953-e14f4e483bb4}</SharePointProjectItemId>
+    </None>
     <None Include="Package\Package.package">
-      <PackageId>{d067dc32-166e-40c2-904f-d22198fde4c6}</PackageId>
+      <PackageId>{3bdc8f38-2f70-4a89-bbfc-f4bf69e81d69}</PackageId>
     </None>
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
+    <None Include="PageLayouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f1f8516c-f2a2-464e-90f9-eeb456bc961f}</SharePointProjectItemId>
+    </None>
+    <None Include="Style Library\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{62bc6101-8982-4382-aa21-8462fb4c2063}</SharePointProjectItemId>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="ContentTypes\" />
-    <Folder Include="Features\" />
-    <Folder Include="Lists\" />
-    <Folder Include="SiteColumns\" />
+    <Folder Include="DisplayTemplates\Unity\" />
+    <Folder Include="Style Library\Unity\Fonts\" />
+    <Folder Include="Style Library\Unity\Images\" />
+    <Folder Include="Style Library\Unity\Scripts\" />
+    <Folder Include="Style Library\Unity\Styles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DisplayTemplates\Elements.xml" />
+    <Content Include="DisplayTemplates\Sample.txt" />
+    <Content Include="Features\Branding\Branding.Template.xml">
+      <DependentUpon>Branding.feature</DependentUpon>
+    </Content>
+    <Content Include="MasterPages\Elements.xml" />
+    <Content Include="MasterPages\Sample.txt" />
+    <Content Include="PageLayouts\Elements.xml" />
+    <Content Include="PageLayouts\Sample.txt" />
+    <Content Include="Style Library\Elements.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

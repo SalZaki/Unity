@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="04e537b5-9acc-4e02-bd15-ce1d67faa2b2" 
+        solutionId="04e537b5-9acc-4e02-bd15-ce1d67faa2b2" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="Unity.Intranet.WebParts"
+        sharePointProductVersion="15.0">
+</package>

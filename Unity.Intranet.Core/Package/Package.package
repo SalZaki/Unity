@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="d067dc32-166e-40c2-904f-d22198fde4c6" 
+        solutionId="d067dc32-166e-40c2-904f-d22198fde4c6" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="Unity.Intranet.Core"
+        sharePointProductVersion="15.0">
+</package>

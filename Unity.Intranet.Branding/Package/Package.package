@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="3bdc8f38-2f70-4a89-bbfc-f4bf69e81d69" solutionId="3bdc8f38-2f70-4a89-bbfc-f4bf69e81d69" resetWebServer="false" sharePointProductVersion="15.0" name="Unity.Intranet.Branding" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="75a449f3-957c-4a13-b3bc-26d822fdef5c" />
+  </features>
+</package>
